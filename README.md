@@ -1,1 +1,1 @@
-# spring-azure-demo
+# spring-test-azure
