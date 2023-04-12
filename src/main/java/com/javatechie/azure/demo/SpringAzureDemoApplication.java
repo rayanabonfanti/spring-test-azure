@@ -26,8 +26,8 @@ public class SpringAzureDemoApplication {
 
 	}
 
-	@GetMapping("/bancoListaCursosId")
-	public String message(@RequestParam("id") Integer id)
+	@GetMapping("/bancoListaCursosId/{id}")
+	public String message(@PathVariable Integer id)
 	{
 		List<String> bancoListaCursos = new ArrayList<String>();
 		bancoListaCursos.add("Padrões de HTML, CSS");
